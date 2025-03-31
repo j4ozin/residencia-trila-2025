@@ -1,0 +1,12 @@
+/*quando criamos um arquivo module.css, ou .html, etc... significa que esse especificamente não vai interferir nos outros arquivos, apenas pra aqueles em que os destinamos
+
+ex:
+
+Header.jsx é um arquivo
+Header.module.css é o arquivo que vai apenas estilizar o componente Header*/
+
+/* Header.module.css */
+.header {
+  background-color: #1e1f22;
+  height: 80px;
+}
