@@ -7,6 +7,14 @@ Header.module.css é o arquivo que vai apenas estilizar o componente Header*/
 
 /* Header.module.css */
 .header {
-  background-color: #1e1f22;
+  background-color: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
   height: 80px;
+}
+
+/* Estilização do img logo ignite, apenas diminuindo o tamanho */
+.header img {
+  height: 2rem;
 }

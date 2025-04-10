@@ -1,6 +1,7 @@
 import { Header } from './components/header'; // Importando o componente Header
 import { Post } from './post'; // Importando o componente Post
-import './style.css'; // Importando o arquivo de estilização global
+
+import './global.css'; // Importando o arquivo de estilização global
 
 export function App() {
   return (
@@ -12,6 +13,4 @@ export function App() {
   );
 }
 
-export function App() {
-  return <h1>Olá, mundo!</h1>;
-}
+

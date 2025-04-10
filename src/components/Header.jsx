@@ -2,12 +2,16 @@
 
 //<header />  tags HTML sempre devem começar com letra minúscula
 
-import styles from './header' // importando o componente Header para o App
+import styles from './Header.module.css';  // importando o componente Header para o App
+
+import igniteLogo from '../assets/ignite-logo.svg';
+
+console.log(igniteLogo);
 
 export function Header() {
     return (
-        <header className='style.header'>
-        <strong>Ignite Feed</strong>
+        <header className={styles.header}>
+        <img src={igniteLogo} alt="Logotipo do Ignite" />
         </header>
     );
 }

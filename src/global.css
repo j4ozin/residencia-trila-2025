@@ -1,0 +1,34 @@
+:root {
+    --white: #fff;
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-600: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+
+    --green-500: #00875f;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*puxando as cores das variaveis que colocamos acima*/
+
+body{
+    background: var(--gray-900); /*cor de fundo*/
+    color: var(--gray-300); /*cor do texto*/
+    -webkit-font-smoothing: antialiased; /* deixa a fonte mais suave */
+}
+
+body, input, textarea, button{ /*estilizando o body, input, textarea e button*/
+    
+    font-family: 'Roboto', sans-serif; /*font-family é a fonte que vamos usar no projeto*/
+    font-weight: 400; /*peso da fonte*/
+    font-size: 1rem; /*tamanho da fonte*/
+}
